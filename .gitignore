@@ -1,0 +1,42 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.restoreBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Avoid ignoring Maven wrapper jar file (.jar/bin)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.factorypath
+
+# Environment variables (SECURITY!)
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
